@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+     RewriteEngine On
+    RewriteRule ^(.*)&demo=demo\d+(\.html)$ $1$2 [L]
+</IfModule>
